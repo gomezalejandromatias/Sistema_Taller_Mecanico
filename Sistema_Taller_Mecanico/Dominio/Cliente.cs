@@ -4,7 +4,19 @@ using System.Text;
 
 namespace Dominio
 {
-    internal class Cliente
+    public class Cliente
     {
+        public int IdCliente { get; set; }
+        public string Nombre { get; set; }
+        public string DNI { get; set; }
+        public string Telefono { get; set; }
+        public string Email { get; set; }
+
+        // Un cliente puede tener varios autos
+        public List<Auto> Autos { get; set; } = new List<Auto>();
+
+
+
+
     }
 }

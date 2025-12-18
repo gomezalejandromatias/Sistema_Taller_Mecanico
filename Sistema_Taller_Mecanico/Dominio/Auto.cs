@@ -13,7 +13,7 @@ namespace Dominio
         public string Modelo { get; set; }
         public int Anio { get; set; }
 
-        public int IdCliente { get; set; }
+        public Cliente  cliente { get; set; }
 
         // Composición: el auto "tiene" un motor
         public Motor Motor { get; set; } = new Motor();

@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Dominio/Dominio.csproj" />
   <Project Path="Sistema_Taller_Mecanico/Sistema_Taller_Mecanico.csproj" />
 </Solution>

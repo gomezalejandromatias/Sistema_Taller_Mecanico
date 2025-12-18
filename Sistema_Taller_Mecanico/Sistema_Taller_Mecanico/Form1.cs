@@ -6,5 +6,6 @@ namespace Sistema_Taller_Mecanico
         {
             InitializeComponent();
         }
+
     }
 }

@@ -4,7 +4,15 @@ using System.Text;
 
 namespace Dominio
 {
-    internal class PiezaMotor
+    public class PiezaMotor
     {
+        public int IdPiezaMotor { get; set; }
+        public string Nombre { get; set; }        // bujía, junta tapa, correa, etc.
+        public string Marca { get; set; }
+        public string Observaciones { get; set; }
+
+
+
+
     }
 }
